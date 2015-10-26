@@ -1,0 +1,145 @@
+html {
+  -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+  -ms-text-size-adjust: 100%;
+  -webkit-text-size-adjust: 100%;
+}
+body {
+  font-family: arial;
+  font-size: 14px;
+  background: #F7F7F7;
+}
+
+h1,h2,h3{
+  font-weight: normal;
+  margin: 0;
+  padding: 0;
+}
+h1{
+  text-align: center;
+  font-size: 20px;
+  text-transform: uppercase;
+  color: #B78B64;
+  margin: 50px 0;
+}
+h2{
+  font-size: 16px;
+  color: #B68C62;
+  margin-bottom: 15px;
+}
+h3{
+  font-size: 16px;
+  text-transform: uppercase;
+  padding: 10px;
+  color: #000;
+  background: #B68C62;
+  margin-top: 15px;
+}
+p{
+  margin: 0;
+  padding: 0;
+  line-height: inherit;
+  text-align: justify;
+}
+address{
+  font-style: normal;
+}
+
+/* container setting start */
+.container{
+  width: 1140px;
+  margin: 0 auto;
+}
+/* container setting end */
+
+/* form elements setting start */
+input,
+button,
+select,
+textarea {
+  font-family: inherit;
+  font-size: inherit;
+  line-height: inherit;
+}
+/* form elements seeting end */
+
+/* a link setting start */
+a,
+a:link,
+a:visited{
+  color: #fff;
+  text-decoration: none;
+}
+nav ul li a:hover,
+nav ul li a:focus,
+nav ul li.current-menu-item a:link,
+nav ul li.current-menu-item a:visited{
+  color: #CCCCCA;
+  padding-bottom: 5px;
+  border-bottom: 2px solid #CCCCCA;
+}
+/* a link setting end */
+
+/* image setting start */
+img {
+  vertical-align: middle;
+  width: 100%;
+}
+.img-responsive {
+  display: block;
+  max-width: 100%;
+  height: auto;
+}
+/* image setting end */
+
+/* clear fix setting start */
+.clearfix:before,
+.clearfix:after,
+.container:before,
+.container:after,
+.container-fluid:before,
+.container-fluid:after,
+.row:before,
+.row:after {
+  content: " ";
+  display: table;
+}
+.clearfix:after,
+.container:after,
+.container-fluid:after,
+.row:after {
+  clear: both;
+}
+/* clear fix setting end */
+
+/* position setting start */
+.center-block {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+.pull-right {
+  float: right !important;
+}
+.pull-left {
+  float: left !important;
+}
+/* position setting end*/
+
+/* vision setting start */
+.hide {
+  display: none !important;
+}
+.show {
+  display: block !important;
+}
+.invisible {
+  visibility: hidden;
+}
+.text-hide {
+  font: 0/0 a;
+  color: transparent;
+  text-shadow: none;
+  background-color: transparent;
+  border: 0;
+}
+/* vision setting end */
